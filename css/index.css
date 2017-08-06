@@ -1,0 +1,39 @@
+#home {
+	background-image: url('../img/index.jpg');
+}
+.logo{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	/*background-color: green;*/
+	top:30px;
+	left: 50%;
+	margin-left:-50px;
+}
+.topic{
+	color:#FFF;
+	background:rgba(0, 0, 0, 0.5);
+	padding: 10px 0 10px 0;
+}
+
+.btn {
+	background-color: #3057CB;
+	border: 1px solid #3057CB;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+	background-color: #1E47B2;
+	border: 1px solid #1E47B2;
+}
+.social-links li a:hover {
+	background:#3057CB;
+	border-color: #3057CB;
+}
+.myform .form-control:focus,
+.myform textarea.inputError:focus,
+.input-group .form-control:focus {
+	border: 2px solid #3057CB;
+}
